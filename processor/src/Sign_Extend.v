@@ -1,0 +1,35 @@
+module Sign_Extend(input [5:0] extend ,output [31:0]_32_bit);
+or q0(_32_bit[0],extend[0],0);
+or q1(_32_bit[1],extend[1],0);
+or q2(_32_bit[2],extend[2],0);
+or q3(_32_bit[3],extend[3],0);
+or q4(_32_bit[4],extend[4],0);
+or q5(_32_bit[5],extend[5],0);
+or q6(_32_bit[6],0,0);
+or q7(_32_bit[7],0,0);
+or q8(_32_bit[8],0,0);
+or q9(_32_bit[9],0,0);
+or q10(_32_bit[10],0,0);
+or q11(_32_bit[11],0,0);
+or q12(_32_bit[12],0,0);
+or q13(_32_bit[13],0,0);
+or q14(_32_bit[14],0,0);
+or q15(_32_bit[15],0,0);
+or q16(_32_bit[16],0,0);
+or q17(_32_bit[17],0,0);
+or q18(_32_bit[18],0,0);
+or q19(_32_bit[19],0,0);
+or q20(_32_bit[20],0,0);
+or q21(_32_bit[21],0,0);
+or q22(_32_bit[22],0,0);
+or q23(_32_bit[23],0,0);
+or q24(_32_bit[24],0,0);
+or q25(_32_bit[25],0,0);
+or q26(_32_bit[26],0,0);
+or q27(_32_bit[27],0,0);
+or q28(_32_bit[28],0,0);
+or q29(_32_bit[29],0,0);
+or q30(_32_bit[30],0,0);
+or q31(_32_bit[31],0,0);
+
+endmodule
